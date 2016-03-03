@@ -1,0 +1,334 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/albrinbor/ontologies/2016/0/city-leisures"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/albrinbor/ontologies/2016/0/city-leisures">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#AmusementPark"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Basketball"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beach"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bingo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bowling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Casino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cinema"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#City"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Culture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FastFood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fishing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flamenco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Football"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FormulaOne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gastronomy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jazz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leisure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Monument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Motor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MotorBikes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mountain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Museum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Music"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Padel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Park"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Picnic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Playful"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rally"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Restaurant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stadium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Surf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Swimming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tasting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tennis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Theatre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trekking"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AmusementPark"/>
+        <Class IRI="#Playful"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bar"/>
+        <Class IRI="#Gastronomy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basketball"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beach"/>
+        <Class IRI="#Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bingo"/>
+        <Class IRI="#Playful"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bowling"/>
+        <Class IRI="#Playful"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Casino"/>
+        <Class IRI="#Playful"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cinema"/>
+        <Class IRI="#Culture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#City"/>
+        <Class IRI="#Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Culture"/>
+        <Class IRI="#Leisure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disco"/>
+        <Class IRI="#Playful"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Event"/>
+        <Class IRI="#Leisure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FastFood"/>
+        <Class IRI="#Gastronomy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fishing"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flamenco"/>
+        <Class IRI="#Music"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Football"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FormulaOne"/>
+        <Class IRI="#Motor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gastronomy"/>
+        <Class IRI="#Leisure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jazz"/>
+        <Class IRI="#Music"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Monument"/>
+        <Class IRI="#Culture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Motor"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MotorBikes"/>
+        <Class IRI="#Motor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mountain"/>
+        <Class IRI="#Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Museum"/>
+        <Class IRI="#Culture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Music"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Padel"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Park"/>
+        <Class IRI="#City"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Picnic"/>
+        <Class IRI="#Playful"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Playful"/>
+        <Class IRI="#Leisure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pop"/>
+        <Class IRI="#Music"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rally"/>
+        <Class IRI="#Motor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rap"/>
+        <Class IRI="#Music"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Restaurant"/>
+        <Class IRI="#Gastronomy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rock"/>
+        <Class IRI="#Music"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sport"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stadium"/>
+        <Class IRI="#City"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Surf"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Swimming"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tasting"/>
+        <Class IRI="#Gastronomy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tennis"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Theatre"/>
+        <Class IRI="#Culture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trekking"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Beach"/>
+        <Class IRI="#City"/>
+        <Class IRI="#Mountain"/>
+    </DisjointClasses>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
